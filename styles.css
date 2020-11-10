@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculatorContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 50em;
+  align-items: center;
+}

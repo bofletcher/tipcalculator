@@ -7,7 +7,23 @@
   <title>Tip Calculator</title>
 </head>
 <body>
-  <h1>Tip Calculator</h1>
+    <div class="calculatorContainer">
+      <h1>Tip Calculator</h1>
+      <h2>How much was your bill?</h2>
+      <input id="billAmt" type="number" placeholder="Enter your bill amount">
+      <h2>How was your service?</h2>
+      <select id="serviceMult" name="service" id="service">
+        <option value="1.30">Outstanding</option>
+        <option value="1.20">Pretty Good</option>
+        <option value="1.15">Average</option>
+        <option value="1.10">Less than average</option>
+        <option value="1.05">Poor Service</option>
+      </select>
+      <h2>How many people are sharing the bill?</h2>
+      <input id="numOfPeople" type="text" placeholder="Number of People">
+      <button id="calcBtn">CALCULATE</button>
+      <div id="calculatedAmt"></div>
+    </div>
   <script src="app.js"></script>
 </body>
 </html>
