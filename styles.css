@@ -5,10 +5,31 @@ body {
   align-items: center;
 }
 
+input {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+}
+
+h2 {
+  width: 100%;
+}
+
+button {
+  margin-top: 1em;
+}
+
 .calculatorContainer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 50em;
+  max-width: 20em;
   align-items: center;
 }
+
